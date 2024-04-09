@@ -33,4 +33,7 @@ pData[1] = __REV16(0x1234); // Swap the high and low 8 bits of a 16-bit number.
     /* Explanation section */
     __REV16 is a macro defined in CMSIS (Cortex Microcontroller Software Interface Standard) to invert a 16-bit byte order on an ARM Cortex-M processor.
     Library file: cmsis_gc.h
+### 한국어：
+### 日本語：
+### Русский язык：
 ## /**********************************************Skill 1 End**********************************************/
