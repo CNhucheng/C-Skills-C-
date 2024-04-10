@@ -37,9 +37,7 @@ pData[1] = __REV16(0x1234); // Swap the high and low 8 bits of a 16-bit number.
 ### 日本語：
 ### Русский язык：
 ## /**********************************************Tips 1 End**********************************************/
-
- <hr style="height:10px;border:none;border-top:10px skyblue;"/>
- 
+***
 ## /**********************************************Tips 2 Start**********************************************/
     ASCII (American Standard Code for Information Interchange)：
     美国信息交换标准代码是基于拉丁字母的一套电脑编码系统，主要用于显示现代英语和其他西欧语言。
