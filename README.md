@@ -55,4 +55,9 @@ pData[1] = __REV16(0x1234); // Swap the high and low 8 bits of a 16-bit number.
 #pragma pack(1)  /*  1个字节内存对齐  */
 #pragma pack()   /*  恢复默认的内存对齐方式  */
 ```
+    #pragma pack(1)是一个有用的编译器指令，可以指定结构体，联合体，和类的成员的内存对齐方式
+    #pragma pack(1)可以节省内存空间，但是也可能降低内存访问的效率，甚至导致一些平台上的错误
+    #pragma pack(1)的作用范围是从它出现的地方，到下一个#pragma pack指令或者文件结束为止
+    #pragma pack(1)可以配合#pragma pack()，#pragma pack(push)和#pragma pack(pop)来使用，以恢复或保存内存对齐方式
+    #pragma pack(1)的使用需要根据具体的需求和场景来判断，不要滥用或忽略
 ## /***********************************************Tips 4 End***********************************************/
